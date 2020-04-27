@@ -1,5 +1,9 @@
 package com.leetcode.dynamicprogramming;
+// https://leetcode.com/problems/longest-palindromic-substring/
 
+/*
+Given a string s, find the longest palindromic substring in s.
+ */
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         Manacher m = new Manacher(s);
