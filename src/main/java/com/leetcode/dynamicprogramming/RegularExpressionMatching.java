@@ -23,6 +23,7 @@ public class RegularExpressionMatching {
 
 
         if (j < p.length() - 1 && p.charAt(j + 1) == '*') {
+            // current character followed by *, ignored
             if (helper(s, p, i, j + 2)) {
                 return true;
             }
