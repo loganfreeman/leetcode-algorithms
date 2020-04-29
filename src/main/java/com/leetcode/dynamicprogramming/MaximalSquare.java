@@ -35,8 +35,8 @@ public class MaximalSquare {
                     dp[i][j]=min+1;
 
                     result = Math.max(result, dp[i][j]);
-                }else{
-                    dp[i][j]=0;
+                }else {
+                    dp[i][j] = 0;
                 }
             }
         }
