@@ -3,6 +3,8 @@ package com.leetcode.dynamicprogramming;
 
 /**
  * Given an integer array nums, find the contiguous subarray within an array (containing at least one number) which has the largest product.
+ *
+ * When iterating the array, each element has two possibilities: positive number or negative number. We need to track a minimum value, so that when a negative number is given, it can also find the maximum value. We define two local variables, one tracks the maximum and the other tracks the minimum.
  */
 public class MaximumProductSubarray {
     // Function to find maximum product subarray
